@@ -14,12 +14,13 @@ The sitar is a fretted string instrument from India, and is predominantly used i
 A linear potentiometer sensor is placed on each fret and it measures the position of the main string along the fret. This happens because a voltage divider circuit is created along each fret, and changing the position of the string along the fret changes the resistance of the sensor resistor, thus generating variable voltage output. Voltage values read by the Bela Beaglebone Black across all frets are sampled and sent all at the same time as UDP packets (a communication protocol) to Max/MSP. As for the choice of sensor, the carbon-based resistive area of a SoftPot Membrane Potentiometer by Spectra Symbol was used for the majority of the project. This material is merely a stopgap until a more suitable solution (for instance, conductive plastic-based 3D printed frets) is obtainable.
 
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![AugSitar_Hardware](https://user-images.githubusercontent.com/33204313/82031282-a444ed80-9667-11ea-8112-3afe00c698f6.png)  |  ![Sensors on frets](https://user-images.githubusercontent.com/33204313/82027761-bbcda780-9662-11ea-8475-3d4279ebd5b6.jpg)
+  Hardware Design                        |  Sensors on Frets
+:---------------------------------------:|:---------------------------------------:
+ <img src="Images/AugSitar_Hardware.png">| <img src="Images/Sensors on frets.jpg"> 
 
 
-
+//![AugSitar_Hardware](https://user-images.githubusercontent.com/33204313/82031282-a444ed80-9667-11ea-8112-3afe00c698f6.png)
+//![Sensors on frets](https://user-images.githubusercontent.com/33204313/82027761-bbcda780-9662-11ea-8475-3d4279ebd5b6.jpg)
 
 
 ## Software
