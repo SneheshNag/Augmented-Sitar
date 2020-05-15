@@ -13,7 +13,7 @@ The sitar is a fretted string instrument from India, and is predominantly used i
 ## Hardware
 A linear potentiometer sensor is placed on each fret and it measures the position of the main string along the fret. This happens because a voltage divider circuit is created along each fret, and changing the position of the string along the fret changes the resistance of the sensor resistor, thus generating variable voltage output. Voltage values read by the Bela Beaglebone Black across all frets are sampled and sent all at the same time as UDP packets (a communication protocol) to Max/MSP. 
 
-![Sensors on frets](/images/logo.png)
+![Sensors on frets](Images/Sensors on frets.jpg)
 Format: ![Alt Text](url)
 
 ## Software
