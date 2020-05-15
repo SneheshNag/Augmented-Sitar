@@ -16,7 +16,11 @@ A linear potentiometer sensor is placed on each fret and it measures the positio
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![AugSitar_Hardware](https://user-images.githubusercontent.com/33204313/82031282-a444ed80-9667-11ea-8112-3afe00c698f6.png)  |  ![Sensors on frets](https://user-images.githubusercontent.com/33204313/82027761-bbcda780-9662-11ea-8475-3d4279ebd5b6.jpg)
+
+
+
+
 
 ## Software
 Fret values sent to Max are passed through pre-processing, wherein range of values are detected, standardized and scaled for 14 bit representation. Values corresponding to frets not in contact with the main string are filtered out, and eventually the fret index and corresponding fret value is obtained. 
