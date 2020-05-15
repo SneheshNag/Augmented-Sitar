@@ -4,7 +4,7 @@ Optimizing an Augmented Sitar for Greater Expressive Control
 ## Overview
 The aim of this project is to develop an Augmented Musical Instrument (AMI) based on the sitar by installing sensors, processing and mapping data using the Bela platform. The instrument is designed to extend the sonic capabilities of the traditional sitar, a popular stringed melodic instrument primarily used in the Hindustani classic music tradition. The novel aspect of the system is the usage of an array of linear potentiometer sensors on top of the instrument frets in order to capture continuous, expressive information upon bending the main melody string (an idiosyncratic gesture associated with the sitar).
 
-## Augmented Music Instrument
+## Augmented Musical Instrument
 Augmented Musical Instruments (AMIs) are created by the application of sensor technology, among other forms, for the purpose of modifying or augmenting a traditional instrument’s set of affordances and sonic capabilities.
 
 ## The Sitar
