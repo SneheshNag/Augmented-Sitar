@@ -16,7 +16,7 @@ A linear potentiometer sensor is placed on each fret and it measures the positio
 
   Hardware Design                        |  Sensors on Frets
 :---------------------------------------:|:---------------------------------------:
- <img src="Images/AugSitar_Hardware.png width=350">| <img src="Images/Sensors on frets.jpg width=350"> 
+ <img src="Images/AugSitar_Hardware.png" width=350>| <img src="Images/Sensors on frets.jpg" width=350> 
 
 
 
