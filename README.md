@@ -23,6 +23,8 @@ A linear potentiometer sensor is placed on each fret and it measures the positio
 ## Software
 Fret values sent to Max are passed through pre-processing, wherein range of values are detected, standardized and scaled for 14 bit representation. Values corresponding to frets not in contact with the main string are filtered out, and eventually the fret index and corresponding fret value is obtained. 
 
+<img src="Images/AugSitar_Software.png" width=450>
+
 ## Mappings
 Fret values obtained are routed according to the detected fret index. In this way, each fret can be mapped to different controllable parameters such as a reverb plug-in’s decay time, or pitch values of a synth in a DAW, allowing for 1-to-1, 1-to-many, many-to-many mappings.
 
